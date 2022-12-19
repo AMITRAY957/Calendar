@@ -31,7 +31,7 @@ document.getElementById("month").innerHTML= months[dt.getMonth()];
 
 var cells = "";
 for(x = day; x>0; x--){
-    cells+= "<div class='prevDate'>" + (prevDate-x+1) + "</div>";
+    cells+= "<div class='prev_date'>" + (prevDate-x+1) + "</div>";
 }
 for(i=1; i<=endDate; i++){
     if(i == today.getDate() && dt.getMonth()==today.getMonth()){
